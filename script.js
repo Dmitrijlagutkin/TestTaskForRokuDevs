@@ -117,10 +117,8 @@ screenTwo.addEventListener("keydown", event => {
 		if (document.activeElement.classList.contains('btnAddScreenTwo')) {
 			counter++
 			buttonsScreenTwo.children[secondCounter].focus()
-			console.log(secondCounter)
 		} else {
 			buttonsScreenTwo.children[secondCounter].focus()
-			console.log(secondCounter)
 		}
 	} else if (event.keyCode === 38) {
 		input.focus()
@@ -138,7 +136,6 @@ screenTwo.addEventListener("keydown", event => {
 		removeAccountsItem()
 		data.accounts.push(newUserObj)
 		input.value = ""
-		console.log(data.accounts)
 		changeScreens(screenOne, screenTwo)
 		creatElemInPage(data.accounts)
 	} else if (document.activeElement.classList.contains('btnCancelScreenTwo') && event.keyCode === 13) {
