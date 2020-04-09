@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.screenOne {
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+}
+
+.accountsItem {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+img {
+	margin-right: 15px;
+}
+
+.btnAddUser {
+	margin: 100px;
+}
+
+.deleteElem {
+	display: none;
+}
+
+.screenTwo {
+	margin-top: 150px;
+}
+
+.buttonsScreenTwo {
+	margin: 30px 30px;
+}
